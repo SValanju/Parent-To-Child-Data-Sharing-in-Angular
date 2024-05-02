@@ -1,0 +1,4 @@
+<h1>{{parent}}</h1>
+<app-child [inputFromParent]="child" (updatedString)="GetData($event)"></app-child>
+<button type="button" (click)="ButtonClick()">With &#64;ViewChild</button>
+<p>{{Name}}</p>
